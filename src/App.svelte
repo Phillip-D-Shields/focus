@@ -184,7 +184,8 @@
     <button
       onclick={toggleTimer}
       class="btn btn-lg min-w-[200px] rounded-full shadow-lg transition-all active:scale-95 border-2"
-      class:btn-outline={isRunning}
+      class:opacity-70={isRunning}
+      class:btn-soft={isRunning}
       class:btn-primary={!isRunning && mode === "focus"}
       class:btn-accent={!isRunning && mode === "break"}
     >
