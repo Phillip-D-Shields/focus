@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes: cupcake --default, dim --prefersdark;
+};
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+}
