@@ -12,9 +12,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Box Breathe',
-        short_name: 'Breathe',
-        description: 'Calming 4-4-4-4 breathing utility',
+        name: 'Focus',
+        short_name: 'Focus',
+        description: 'A simple pomodoro timer to boost your productivity',
         theme_color: '#9fe88d',
         background_color: '#242933',
         display: 'standalone',
